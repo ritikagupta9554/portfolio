@@ -21,7 +21,7 @@ const Hero = () => {
       >
         <div className="relative">
           <img
-            src="src/assets/ritika-profile.png"
+            src="/ritika-profile.png"
             alt="Ritika Gupta"
             className="w-40 h-40 rounded-full border-4 border-white shadow-xl object-cover"
           />
@@ -59,7 +59,7 @@ const Hero = () => {
 
       {/* Resume Button */}
       <motion.a
-        href="/src/assets/Ritika Gupta(UI Designer).pdf"
+        href="/Ritika Gupta(UI Designer).pdf "
         download
         className="z-10 mt-8 inline-block px-8 py-3 rounded-full border border-white/20 bg-white/10 backdrop-blur-md text-white font-medium hover:bg-white hover:text-black transition-all duration-300 shadow-lg"
         whileHover={{ scale: 1.07 }}
